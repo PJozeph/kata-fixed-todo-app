@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/todoAppKata/src/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.newTodo {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: 2px solid salmon;
+    background-image: url('/todoAppKata/src/assets/HEADER_208.webp');
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 120px;
+    margin-right: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+.button {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}

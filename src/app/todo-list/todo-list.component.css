@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+li {
+    border: 5px solid brown;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: lightgrey;
+    font-size: 120%;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}
+
+#search {
+    margin-top: 10px;
+}
+
+#search label {
+    margin: 5px;
+}
+
+#delete {
+    background-color: rgb(221, 41, 41);
+}
+
+#edit {
+    background-color: rgb(141, 204, 141);
+}

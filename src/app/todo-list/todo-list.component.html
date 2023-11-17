@@ -1,0 +1,24 @@
+<h1>My Todos</h1>
+<div>
+    <ul>
+        <li *ngFor="let todo of todos">
+            {{todo| json}}
+            <div class="form-group">
+                <button type="button" id="delete"
+                 (click)="deleteTodo(todo.id)"
+                 >Delete todo</button>
+                <button type="button" id="edit" (click)="navigateToEdit(todo.id)">Edit todo</button>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<button type="button" (click)="navigateCreate()">Back to create</button>
+
+<button type="button" (click)="filterTodos()">Filter "not started yet" todos</button>
+
+<div id="search">
+    <label for="search">Search todo:</label>
+    <input type="search" [(ngModel)]="searchTerm" name="searchTerm">
+    <input type="submit" value="Search" (click)="searchTodo()">
+</div>

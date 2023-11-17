@@ -1,0 +1,34 @@
+{
+  "todo": [
+    {
+      "id": 2,
+      "title": "Alvás",
+      "description": "Rendet rakni a stúdióban!",
+      "dueDate": "2023-11-21"
+    },
+    {
+      "id": 3,
+      "title": "Take a break",
+      "description": "get some fresh air",
+      "dueDate": "2023-11-17"
+    },
+    {
+      "title": "Gumicsere",
+      "description": "Téli gumit felrakatni",
+      "dueDate": "2023-11-20",
+      "priority": "High",
+      "status": "in progress",
+      "notes": "",
+      "id": 4
+    },
+    {
+      "title": "buy milk",
+      "description": "from tesco",
+      "dueDate": "2023-11-17",
+      "priority": "High",
+      "status": "not started yet",
+      "notes": "fo bar",
+      "id": 5
+    }
+  ]
+}

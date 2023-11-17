@@ -1,0 +1,32 @@
+<form
+    [formGroup]="todoEditFormGroup"
+    (ngSubmit)="updateTodo()">
+    <div class="row">
+        <label></label>
+        <input formControlName="title" />
+    </div>
+    <div class="row">
+        <label></label>
+        <input formControlName="description" />
+    </div>
+    <div class="row">
+        <label></label>
+        <input formControlName="dueDate" />
+    </div>
+    <div class="row">
+        <label></label>
+        <input />
+    </div>
+    <div class="row">
+        <label></label>
+        <input />
+    </div>
+    <div class="row">
+        <label></label>
+        <input />
+    </div>
+    <div class="row">
+        <button type="submit">Save</button>
+        <button>cancel</button>
+    </div>
+</form>
